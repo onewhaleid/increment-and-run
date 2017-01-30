@@ -1,0 +1,9 @@
+{
+  "atom-workspace": {
+    "alt-shift-i": "increment-and-run:toggle",
+    "alt--": "increment-and-run:minus",
+    "alt-+": "increment-and-run:plus",
+    "alt-/": "increment-and-run:divide",
+    "alt-*": "increment-and-run:times"
+  }
+}

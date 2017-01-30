@@ -1,0 +1,34 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle increment-and-run",
+        "command": "increment-and-run:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "increment-and-run",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "increment-and-run:toggle"
+            },
+            {
+              "label": "Minus",
+              "command": "increment-and-run:minus"
+            },
+            {
+              "label": "Plus",
+              "command": "increment-and-run:plus"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

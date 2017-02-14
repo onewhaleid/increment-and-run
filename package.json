@@ -1,20 +1,26 @@
 {
-  "name": "increment-and-run",
-  "main": "./lib/increment-and-run",
-  "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [
-  ],
-  "activationCommands": {
-    "atom-workspace": "increment-and-run:minus",
-    "atom-workspace": "increment-and-run:plus",
-    "atom-workspace": "increment-and-run:toggle"
-  },
-  "repository": "https://github.com/atom/increment-and-run",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "dependencies": {
-  }
+    "name": "increment-and-run",
+    "main": "./lib/increment-and-run",
+    "version": "0.0.0",
+    "description": "A short description of your package",
+    "keywords": [],
+    "activationCommands": {
+        "atom-workspace": "increment-and-run:minus",
+        "atom-workspace": "increment-and-run:plus",
+        "atom-workspace": "increment-and-run:toggle"
+    },
+    "repository": "https://github.com/atom/increment-and-run",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "dependencies": {},
+    "configSchema": {
+        "atomCommands": {
+            "type": "string",
+            "default": "none, core:save",
+            "title": "Atom commands",
+            "description": "Functions to call after incrementing values."
+        }
+    }
 }

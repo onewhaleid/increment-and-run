@@ -1,6 +1,23 @@
 # increment-and-run package
 
-A short description of your package.
+Make incremental changes to numeric values in your code during rapid prototyping.
+
+![increment_and_run_demo](https://cloud.githubusercontent.com/assets/11261876/23585861/d0931ee8-01dc-11e7-84c1-b9f25ac6a389.gif)
 
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+### Usage
+
+This package was inspired by the MATLAB rapid code iteration toolbar. It allows numeric values in code to be modified quickly, while visualising changes in the output at the same time.
+
+It was designed for Python code, but should be suitable for other interpreted languages.
+
+
+### Installation
+
+```
+apm install increment-and-run
+```
+
+### License
+
+[MIT](./LICENSE.md)
